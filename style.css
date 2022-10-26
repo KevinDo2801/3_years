@@ -3,7 +3,7 @@
 	margin: 0;
 }
 body{
-	background: url(bg_img.jpg) no-repeat;
+	background: url(./received_2441604756153815.jpeg) no-repeat;
 	background-size: cover;
 	align-items: center;
 	justify-content: center;
@@ -15,14 +15,16 @@ body{
 	margin-top: 100px;
 	width: 450px;
 	height: auto;
-	background: #dedede;
+	background: white;
 	border-radius: 5px;
 }
 .label{
-	padding: 20px 130px;
+	text-align: center;
+	padding: 20px 0;
 	font-size: 35px;
 	font-weight: bold;
 	color: #130f40;
+	color: #EF9A9A;
 }
 .login_form{
 	padding: 20px 40px;
@@ -41,24 +43,25 @@ body{
 	border: 1px solid silver;
 }
 .login_form .font2{
-	margin-top: 30px;
+	margin-top: 0px;
 }
 .login_form button{
-	margin: 45px 0 30px 0;
 	height: 45px;
-	width: 365px;
+	width: 100px;
+	margin: 20px 140px;
 	font-size: 20px;
-	color: white;
+	color: #EF9A9A;
 	outline: none;
 	cursor: pointer;
 	font-weight: bold;
-	background: #1A237E;
+	background: white;
 	border-radius: 3px;
-	border: 1px solid #3949AB;
-	transition: .5s;
+	border: 1px solid #EF9A9A;
+	transition: all .5s;
 }
 .login_form button:hover{
-	background: #151c6a;
+	background: #EF9A9A;
+	color: white;
 }
 .login_form #email_error,
 .login_form #pass_error{
