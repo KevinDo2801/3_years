@@ -1,4 +1,4 @@
-var real_password = "01BC0FC6";
+var real_password = "29102022";
 var password = document.forms['form']['password'];
 
 var pass_error = document.getElementById('pass_error');
