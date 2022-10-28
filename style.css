@@ -77,4 +77,43 @@ body{
 	display: none;
 }
 
+.father{
+	display: flex;
+	width: 80%;
+	margin: 130px auto;
+	justify-content: space-around;
+	align-items: center;
+}
 
+.item{
+	width: 460px;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.todo{
+	padding: 20px 40px ;
+	padding-top: 0;
+}
+
+.todo li{
+	padding: 5px 0;
+}
+
+.todo button{
+	height: 45px;
+	width: 150px;
+	margin: 20px 163px;
+	font-size: 20px;
+	color: #EF9A9A;
+	outline: none;
+	font-weight: bold;
+	background: white;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+}
+
+.item2{
+	margin-bottom: 90px;
+}
